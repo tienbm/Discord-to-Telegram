@@ -1,19 +1,66 @@
 # Discord-to-Telegram
-Program that forwards messages from Discord server channels to Telegram channels. Uses Discord.Net, Telegram.Bot, Telegram.Extensions.Polling packages
+🎉 Beta Launch: DiscordToTelegram - The Perfect Bridge Between Discord and Telegram! 🚀
 
-In order for the program to work, you need to:
-1. Add your Discord bot to the server with channels you want to forward
-2. Add your Telegram bot to the channels where you want to receive Discord messages
-3. Specify the Discord and Telegram bot tokens in the `Program/BotTokens/DiscordBotToken.txt` and `Program/BotTokens/TelegramBotToken.txt`
-5. Specify the names of the source and destination chats in in the `Program/ForwardOptions.txt` file the following way:
+We’re thrilled to announce the beta version of DiscordToTelegram, your ultimate solution for seamless communication between Discord and Telegram. Try it now and help us improve for the official release!
 
-```
-(source chat a, source chat b)(destination chat 1, destination chat 2)
+---
 
-(source chat a, etc)(destination chat c, etc)
-```
+🌟 Key Features
+✅ Auto-forward messages:  
+   - Automatically forward messages from Discord to Telegram effortlessly.  
+   - Supports text, images, videos, documents, and more.  
 
-One line represents the source chats (in the first brackets) in which messages will be copied to the destination chats (in the second brackets). You can specify only a part of the chat name, but the inaccuracy can lead to the program choosing the wrong chat if the bot has chats with similar names.
-The file may contain any number of such lines, but repeating one destination for the same source can result in repeated messages.
+✅ Advanced message customization:  
+   - Replace feature: Automatically modify specific words or phrases in forwarded messages.  
+   - Whitelist: Only forward messages that match specific keywords or conditions.  
+   - Blacklist: Block messages containing unwanted keywords or content.  
+   - Add headers, footers, or edit content before forwarding.  
 
-6. Execute the Program.cs file
+✅ Smart filtering and management:  
+   - Filter messages by keywords, content type, or sender.  
+   - Manage multiple channels and groups across both platforms.  
+
+✅ High security and stability:  
+   - Secured with your token for enhanced protection.  
+   - Handles large member groups while ensuring smooth operations.  
+
+---
+
+🎯 Who Is It For?
+💼 Community Managers: Streamline and automate content management across platforms.  
+📊 Businesses: Synchronize important announcements easily.  
+🙋‍♂️ Individuals: Save time and optimize communication workflows.  
+
+---
+
+👉 Get Started with the Beta
+🌐 Access the product: https://web.discordtotelegram.com
+
+📢 Stay Updated:  
+- Telegram Channel News: https://t.me/Auto_Forward_Discord_Telegram
+- Follow Us on X (Twitter): https://x.com/Discord2Telegrm
+- Video guide: https://www.youtube.com/playlist?list=PL0-BTMf1sohRRAm_ALQcuQQakRblkzBlB
+- Docs guide: https://docs.discordtotelegram.com/
+---
+
+💎 Special Beta Discount Event!
+🎉 Be among the first 100 users to grab an exclusive discount:  
+- 50% OFF for the first 50 users to make a payment.  
+- 30% OFF for the next 50 users.  
+
+⏳ *Limited to 100 users only! Don’t miss your chance to save big!*  
+
+---
+
+💡 Try the Beta Now and Share Your Feedback!  
+DiscordToTelegram is here to redefine how you manage cross-platform communication.  
+🔥 Automate. Filter. Customize. Communicate Better.  
+
+👉 Join the beta today and experience the future of communication! 🚀
+
+If you need any assistance, please message @redf0x1 immediately for support.
+
+Best Regards,
+RedFox Team
+
+Tags: Advanced Message Filtering Auto Forward Discord to Telegram Automate Discord to Telegram Cross-Platform Messaging Discord Bots for Communication Discord to Telegram Sync Multi-Channel Management Real-Time Message Forwarding Telegram Automation Tools Telegram Group Management
